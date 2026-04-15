@@ -19,7 +19,7 @@ function Home() {
           <Button text="API Example" to="/api-example" />
         </div>
         <div className={styles.bannerImage}>
-          <img src="/favicon.svg" alt="logo" />
+          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="logo" />
         </div>
       </section>
 
